@@ -80,3 +80,20 @@ header, nav, main, footer{
     padding: 5%;
     text-align: center;
 }
+
+/*Crea una media query en la cual a partir 600px
+
+desaparezca el nav, header y el footer tengan un color 
+de fondo: lightblue
+
+*/
+
+@media screen and (max-width: 600px){
+    nav{
+        display: none;
+    }
+    header, footer {
+        background-color: lightblue;
+    }
+    
+}
