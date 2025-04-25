@@ -1,0 +1,82 @@
+*{☺
+    padding: 0;
+    margin:0;
+}
+
+/*
+
+EJEMPLO 1
+
+p{
+    font-size: 5vw;
+}
+
+.imagen{
+    width: 30%;
+    margin-left: 35%;
+}
+
+
+.imagen img{
+    width: 100%;
+}
+
+.imagen_movil{
+    display: none;
+}
+
+@media screen and (max-width:700px){
+    .imagen{
+        display:none;
+    }
+
+    .imagen_movil{
+        display: block;
+    }
+
+
+}*/
+
+/*
+EJEMPLO 2
+.caja1{
+    background-color: red;
+    width: 50%;
+    padding-bottom: 30%;
+    float: left;
+}
+
+
+
+.caja2{
+    background-color: blue;
+    width: 50%;
+    padding-bottom: 30%;
+    float: left;
+}
+
+@media screen and (max-width:600px){
+    .caja1{
+        background-color: crimson;
+    }
+    .caja2{
+        background-color: darksalmon;
+    }
+
+
+    .caja1, .caja2{
+        float:none;
+        width: 100%;
+        padding-bottom: 40%;
+    }
+}
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, nav, main, footer{
+    padding: 5%;
+    text-align: center;
+}
