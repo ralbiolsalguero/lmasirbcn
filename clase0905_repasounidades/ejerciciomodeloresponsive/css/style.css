@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*
+    Es una propiedad qeu controla como se calculan las dimensiones
+    de un elemento (ancho y alto), en relación a su contenido padding y border
+
+    - content-box: Solo el contenido (padding y border se suman después)
+    - border-box: Incluye contenido + padding + border
+    
+    */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #17a2b8;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+
+.contenido{
+    overflow: auto;
+   /*
+   Controla lo que ocurre cuando el contenido de un elemento
+   se desborda de su caja
+
+    - visible: Valor defecto. El contenido se sale de la caja. No se recorta
+    - hidden: Oculta el contenido que se sale del área.
+    - scroll: Muestra una barra de scroll
+    - auto: Muestra scroll si el contenido lo necesita
+
+   */
+
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu a{
+    background-color: #d1ecf1;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color:#0c5460;
+    text-decoration: none;
+    border-radius: 8px;
+}

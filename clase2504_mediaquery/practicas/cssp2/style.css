@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 1.2rem;
+
+}
+
+.productos{
+    padding: 5%;
+    text-align: center;
+}
+
+.productos article{
+    width:90%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: #f9f9f9;
+}
+
+
+@media screen and (min-width: 600px) {
+    .productos article{
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .productos article{
+        width: 30%;
+    }
+}
