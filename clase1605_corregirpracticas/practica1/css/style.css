@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #444;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.encabezado {
+  background-color: #17a2b8;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+}
+
+.menu a {
+  background-color: #d1ecf1;
+  padding: 10px;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  color: #0c5460;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.menu a:hover {
+  background-color: #bee5eb;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #fff3cd;
+  float: left;
+  width: 20%;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+  border-left: 4px solid #ffeeba;
+}
+
+.pie {
+  background-color: #17a2b8;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  margin-top: 10px;
+}
+
+.contenedor::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width:600px) {
+    .menu, .main, .right{
+        width: 100%;
+        float: none;
+    }
+    
+}
