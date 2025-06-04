@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header.cabecera{
+    background-color: #1e1e2f;
+    color: #fff;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.boton-menu{
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    display: none;
+    cursor: pointer;
+    transition: tranform 0.3s ease;
+}
+
+.boton-menu:hover{
+    transform: scale(1.1); /*10% aprox*/
+}
+
+.menu-principal{
+    display: flex;
+    gap: 24px;
+}
+
+.menu-principal a{
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.menu-principal a:hover{
+    background-color: #292945;
+    color:fff;
+}
+
+@media screen and (max-width: 770px) {
+    .boton-menu{
+        display: block;
+    }
+
+    .menu-principal{
+        display: none;
+        flex-direction: column;
+        gap: 12px;
+        background-color: #292945;
+        position: absolute;
+        top:100%;
+        right: 0;
+        left: 0;
+        padding: 15px 20px;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        z-index: 100;
+    }
+
+    .menu-principal.menu-desplegado{
+        display: flex;
+    }
+
+}
+
+main{
+    padding: 30px;
+}
