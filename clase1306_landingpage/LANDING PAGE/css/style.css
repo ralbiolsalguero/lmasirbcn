@@ -57,3 +57,53 @@ nav a:hover{
 .titulo .btn:hover{
     background-color: #2196f3;
 }
+
+.leyenda{
+    font-family: 'Century Gothic',sans-serif;
+    color: #2196f3;
+    font-size: 200%;
+    padding: 1em;
+    text-shadow: 2px 2px 8px #000;
+}
+
+p{
+    border: 1px solid #2196f3;
+    font-size: 160%;
+    text-align: justify;
+    margin: 3%;
+    padding: 3%;
+    font-family: sans-serif;
+    line-height: 200%;
+}
+
+#servicios p{
+    column-count: 2;
+    column-gap: 2em;
+}
+
+#estamos{
+    background-color: #2196f3;
+    border: 1px solid #2196f3;
+}
+
+.leyblanco{
+    color: white;
+}
+
+.arriba{
+    position: fixed;
+    color: white;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(82, 4, 155);
+}
+
+.centrar{
+    padding: 0.5em;
+}
