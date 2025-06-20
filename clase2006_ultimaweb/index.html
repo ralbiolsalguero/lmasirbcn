@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Landing Page 2</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Mi Sitio</div>
+        <nav class="desktop-nav">
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="mobile-nav" id="mobile-nav">
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Bienvenido a Nuestro Sitio</h1>
+        <p>Descubre nuestros servicios y conoce más sobre nosotros.</p>
+        <a href="#" class="btn">Contáctanos</a>
+    </section>
+    <section class="content" id="servicios">
+        <h2>Servicios</h2>
+        <div class="info-box">
+            <h3>Desarrollo Web</h3>
+            <p>Creación de sitios rápidos, responsivos y seguros.</p>
+        </div>
+        <div class="info-box">
+            <h3>Diseño gráfico</h3>
+            <p>Identidad visual moderna y atractiva para su marca.</p>
+        </div>
+        <div class="info-box">
+            <h3>Marketing Digital</h3>
+            <p>Campañas efectias para aumentar tu visibilidad online.</p>
+        </div>
+    </section>
+    <section class="content" id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos un equipo apasionado por la tecnología y el diseño, con años de experiencia ofreciendo calidad y compromiso a nuestros clientes.</p>
+    </section>
+
+    <section class="testimonios">
+        <h2>Testimonios</h2>
+        <div class="testimonio">
+            "El equipo fue increíblemente profesional. Mi sitio web luce espectacular y funciona de maravilla. ¡Altamente recomendados!"
+        </div>
+        <div class="testimonio">
+            "Gracias a ellos ahora mi negocio tiene presencia en línea. Estoy muy agradecida por su trabajo y dedicación."
+        </div>
+        <div class="nuevo-testimonio-form">
+            <h3>Escribre tu testimonio</h3>
+            <textarea id="nuevo-testimonio" rows="4" placeholder="Escribe aquí tu testimonio..."></textarea>
+            <button onclick="agregarTestimonio()">Enviar</button>
+        </div>
+    </section>
+    <section class="content" id="contacto">
+        <h2>Contacto</h2>
+        <form id="contacto-form">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="">Correo electrónico</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+            <div class="form-mensaje" id="form-mensaje"></div>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mi Sitio. Todos los derechos reservados</p>
+    </footer>
+
+
+    <script src="js/javascript.js"></script>
+</body>
+</html>
