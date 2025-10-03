@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE universidad SYSTEM "universidad.dtd">
+<universidad>
+  <asignaturas>
+    <asignatura id="ASIR101">
+      <nombre>Redes</nombre>
+      <creditos>6</creditos>
+    </asignatura>
+    <asignatura id="ASIR102">
+      <nombre>Sistemas</nombre>
+      <creditos>6</creditos>
+    </asignatura>
+  </asignaturas>
+  <alumnos>
+    <alumno nia="A1001">
+      <nombre>Lucía Martín</nombre>
+    </alumno>
+    <alumno nia="A1002">
+      <nombre>Óscar Ruiz</nombre>
+    </alumno>
+  </alumnos>
+  <matriculas>
+    <matricula alumno="A1001" asignatura="ASIR101"/>
+    <matricula alumno="A1002" asignatura="ASIR101"/>
+    <matricula alumno="A1002" asignatura="ASIR102"/>
+  </matriculas>
+</universidad>

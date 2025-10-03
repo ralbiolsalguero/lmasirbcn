@@ -1,0 +1,14 @@
+<!ELEMENT factura (cabecera, lineas, totales)>
+<!ELEMENT cabecera (cliente, nif, fecha)>
+<!ELEMENT cliente (#PCDATA)>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT lineas (linea+)>
+<!ELEMENT linea (producto, cantidad, precioUnitario)>
+<!ELEMENT producto (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precioUnitario (#PCDATA)>
+<!ELEMENT totales (subtotal, iva, total)>
+<!ELEMENT subtotal (#PCDATA)>
+<!ELEMENT iva (#PCDATA)>
+<!ELEMENT total (#PCDATA)>

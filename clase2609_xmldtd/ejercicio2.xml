@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura SYSTEM "factura.dtd">
+<factura>
+    <cabecera>
+        <cliente>Acme S.A</cliente>
+        <nif>A8738372</nif>
+        <fecha>2025-09-26</fecha>
+    </cabecera>
+    <lineas>
+        <linea>
+            <producto>Teclado mecánico</producto>
+            <cantidad>2</cantidad>
+            <precioUnitario>59.60</precioUnitario>
+        </linea>
+    </lineas>
+    <totales>
+        <subtotal>159.70</subtotal>
+        <iva>21</iva>
+        <total>193.30</total>
+    </totales>
+</factura>

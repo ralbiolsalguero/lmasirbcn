@@ -1,0 +1,22 @@
+Ejercicio 3: Factura (DTD externo)
+
+Crea un XML de factura con un DTD externo factura.dtd.
+
+Requisitos:
+
+Raíz: <factura>
+
+Estructura: factura(cabecera, lineas, totales)
+
+<cabecera>: contiene <cliente>, <nif>, <fecha>
+
+<lineas>: contiene una o más <linea> con <producto>, 
+<cantidad>, <precioUnitario>
+
+<totales>: contiene <subtotal>, <iva>, <total>
+
+Atributos: cantidad y precioUnitario 
+deben ser de tipo CDATA
+
+Define en el DTD una entidad general para el 
+porcentaje de IVA (por ejemplo 21) y úsala en el XML;

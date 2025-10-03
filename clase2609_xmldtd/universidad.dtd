@@ -1,0 +1,14 @@
+<!ELEMENT universidad (asignaturas, alumnos, matriculas)>
+<!ELEMENT asignaturas (asignatura+)>
+<!ELEMENT asignatura (nombre, creditos)>
+<!ATTLIST asignatura id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT creditos (#PCDATA)>
+
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (nombre)>
+<!ATTLIST alumno nia ID #REQUIRED>
+
+<!ELEMENT matriculas (matricula+)>
+<!ELEMENT matricula EMPTY>
+<!ATTLIST matricula alumno IDREF #REQUIRED asignatura IDREF #REQUIRED>
