@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE accommodationReservations SYSTEM "reservation.dtd">-->
+<accommodationReservations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="reservation.xsd">
+    <reservation>
+        <id>1</id>
+        <accommodationType>Hotel</accommodationType>
+        <checkInDate>2024-08-15</checkInDate>
+        <checkInTime>15:00:00</checkInTime>
+        <checkOutDate>2024-08-20</checkOutDate>
+        <checkOutTime>11:00:00</checkOutTime>
+        <guest>
+            <firstName>John</firstName>
+            <lastName>Doe</lastName>
+            <email>john.doe@example.com</email>
+        </guest>
+    </reservation>
+    <reservation>
+        <id>2</id>
+        <accommodationType>Vacation Rental</accommodationType>
+        <checkInDate>2024-09-10</checkInDate>
+        <checkInTime>14:00:00</checkInTime>
+        <checkOutDate>2024-09-15</checkOutDate>
+        <checkOutTime>10:30:00</checkOutTime>
+        <guest>
+            <firstName>Jane</firstName>
+            <lastName>Smith</lastName>
+            <email>jane.smith@example.com</email>
+        </guest>
+    </reservation>
+</accommodationReservations>

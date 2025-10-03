@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE marcadores SYSTEM "ejemplo.dtd">-->
+<!--<marcadores>-->
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejemplo.xsd">
+    <pagina>
+        <nombre>AbrirLlave</nombre>
+        <descripcion>Tutoriales de informática</descripcion>
+        <url>http://www.abrirllave.com</url>
+    </pagina>
+    <pagina>
+        <nombre>AbrirLlave</nombre>
+        <descripcion>Tutoriales de informática</descripcion>
+        <url>http://www.abrirllave.com</url>
+    </pagina>
+    <pagina>
+        <nombre>AbrirLlave</nombre>
+        <descripcion>Tutoriales de informática</descripcion>
+        <url>http://www.abrirllave.com</url>
+    </pagina>
+</marcadores>

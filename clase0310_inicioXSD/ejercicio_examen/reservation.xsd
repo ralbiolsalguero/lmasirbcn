@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="accommodationReservations">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="reservation" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="id" type="xs:integer"/>
+                            <xs:element name="accommodationType" type="xs:string"/>
+                            <xs:element name="checkInDate" type="xs:date"/>
+                            <xs:element name="checkInTime" type="xs:time"/>
+                            <xs:element name="checkOutDate" type="xs:date"/>
+                            <xs:element name="checkOutTime" type="xs:time"/>
+                            <xs:element name="guest">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="firstName" type="xs:string"/>
+                                        <xs:element name="lastName" type="xs:string"/>
+                                        <xs:element name="email" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

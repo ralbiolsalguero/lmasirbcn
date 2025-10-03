@@ -1,0 +1,12 @@
+<!ELEMENT accommodationReservations (reservation+)>
+<!ELEMENT reservation (id, accommodationType, checkInDate, checkInTime, checkOutDate, checkOutTime, guest)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT accommodationType (#PCDATA)>
+<!ELEMENT checkInDate (#PCDATA)>
+<!ELEMENT checkInTime (#PCDATA)>
+<!ELEMENT checkOutDate (#PCDATA)>
+<!ELEMENT checkOutTime (#PCDATA)>
+<!ELEMENT guest (firstName, lastName, email)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
