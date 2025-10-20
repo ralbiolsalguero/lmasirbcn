@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="curso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="datosCurso">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="horasTotales" type="xs:integer"/>
+              <xs:element name="horasFCT" type="xs:integer"/>
+              <xs:element ref="periodo"/>
+              <xs:element ref="contacto"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="alumnos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="alumno" maxOccurs="35"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="codigo" type="xs:string" use="required"/>
+      <xs:attribute name="centro" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:element name="periodo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="inicio" type="xs:date"/>
+        <xs:element name="fin" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:element name="contacto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="telefono" type="xs:integer"/>
+        <xs:element name="email" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:element name="alumno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="apellidos" type="xs:string"/>
+        <xs:element name="dni" type="xs:string"/>
+        <xs:element name="edad" type="xs:integer"/>
+        <xs:element name="notaFinal" type="xs:decimal"/>
+        <xs:element name="contacto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="telefono" type="xs:integer"/>
+              <xs:element name="email" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+      <xs:attribute name="turno" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

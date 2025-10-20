@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca ubicacion="Avenida de Guadalajara, 22" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejemplo3.xsd">
+    <libro codigo="A1">
+        <titulo>Don Quijote</titulo>
+        <autor>Cervantes</autor>
+        <anio>1999</anio>
+    </libro>
+</biblioteca>

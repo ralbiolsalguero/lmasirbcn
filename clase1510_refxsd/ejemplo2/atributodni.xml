@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="atributodni.xsd"> 
+    <alumno dni="323B"> 
+        <nombre>Juan</nombre> 
+        <nota>8.5</nota> 
+    </alumno> 
+</alumnos>
+
+
+<!-- 
+    minExclusive -> 30 <30
+    maxExclusive -> 80 >80
+    minInclusive -> 30 <=30
+    maxInclusive -> 80 >=80
+-->

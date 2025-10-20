@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="instituto">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="alumnos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="alumno" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="edad" type="xs:integer"/>
+                                        <xs:element name="ciclo" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="profesores">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="profesor" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="modulo" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="matriculas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="matricula" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                        <xs:attribute name="alumnoRef" type="xs:string" use="required"/>
+                        <xs:attribute name="profesorRef" type="xs:string" use="required"/>
+                        <xs:attribute name="curso" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="nombre" type="xs:string" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

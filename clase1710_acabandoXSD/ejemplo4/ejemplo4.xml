@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instituto nombre="IES Prometeo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejemplo4.xsd">
+    <alumnos>
+        <alumno id="A1">
+            <nombre>Laura Pérez</nombre>
+            <edad>19</edad>
+            <ciclo>DAW</ciclo>
+        </alumno>
+        <alumno id="A2">
+            <nombre>Carlos Gómez</nombre>
+            <edad>20</edad>
+            <ciclo>DAM</ciclo>
+        </alumno>
+    </alumnos>
+
+    <profesores>
+        <profesor id="P1">
+            <nombre>Raúl Albiol</nombre>
+            <modulo>Lenguajes de Marcas</modulo>
+        </profesor>
+        <profesor id="P2">
+            <nombre>María Fernández</nombre>
+            <modulo>Bases de Datos</modulo>
+        </profesor>
+    </profesores>
+
+    <matriculas>
+        <matricula alumnoRef="A1" profesorRef="P1" curso="2024-2025"/>
+        <matricula alumnoRef="A2" profesorRef="P2" curso="2024-2025"/>
+    </matriculas>
+</instituto>

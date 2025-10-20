@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curso codigo="DAM-2025" centro="Prometeo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejemplo.xsd"> 
+  <datosCurso>
+    <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+    <horasTotales>2000</horasTotales>
+    <horasFCT>370</horasFCT>
+    <periodo>
+      <inicio>2025-09-15</inicio>
+      <fin>2027-06-20</fin>
+    </periodo>
+    <contacto>
+      <telefono>915123456</telefono>
+      <email>dam@prometeo.edu</email>
+    </contacto>
+  </datosCurso>
+
+  <alumnos>
+    <alumno id="A001" turno="mañana">
+      <nombre>Laura</nombre>
+      <apellidos>Gómez Ruiz</apellidos>
+      <dni>12345678Z</dni>
+      <edad>19</edad>
+      <notaFinal>8.75</notaFinal>
+      <contacto>
+        <telefono>600112233</telefono>
+        <email>laura.gomez@example.com</email>
+      </contacto>
+    </alumno>
+
+    <alumno id="A002" turno="tarde">
+      <nombre>Diego</nombre>
+      <apellidos>Pérez López</apellidos>
+      <dni>X1234567L</dni>
+      <edad>32</edad>
+      <notaFinal>6.5</notaFinal>
+      <contacto>
+        <telefono>699998877</telefono>
+        <email>diego.perez@example.com</email>
+      </contacto>
+    </alumno>
+  </alumnos>
+</curso>
