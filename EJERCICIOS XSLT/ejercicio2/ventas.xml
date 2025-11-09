@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ventas.xslt" type="text/xsl"?>
+<ventas>
+  <categoria>
+    <nombre>Electrónica</nombre>
+    <venta>1500</venta>
+  </categoria>
+  <categoria>
+    <nombre>Ropa</nombre>
+    <venta>800</venta>
+  </categoria>
+  <categoria>
+    <nombre>Libros</nombre>
+    <venta>1200</venta>
+  </categoria>
+</ventas>
+<!-- 
+Crea una hoja de transformación XSLT (ventas.xsl) que:
+
+Transforme el XML en una página HTML.
+
+Muestre un título principal <h1> con el texto "Informe de Ventas por Categoría".
+
+Genere una tabla HTML con dos columnas:
+
+Columna 1 → Nombre de la categoría
+
+Columna 2 → Ventas totales
+
+Recorra los nodos <categoria> mediante xsl:for-each.
+
+Ordene las categorías alfabéticamente por el nombre usando xsl:sort dentro del for-each.
+
+Se proporciona la plantilla base de la transformación:
+-->

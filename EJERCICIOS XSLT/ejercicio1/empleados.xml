@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="empleados.xslt" type="text/css"?>
+<empleados>
+  <empleado>
+    <nombre>John Doe</nombre>
+    <salario>5000</salario>
+  </empleado>
+  <empleado>
+    <nombre>Jane Smith</nombre>
+    <salario>7000</salario>
+  </empleado>
+  <empleado>
+    <nombre>Mike Johnson</nombre>
+    <salario>4000</salario>
+  </empleado>
+</empleados>
+<!-- 
+Se te pide crear una hoja de transformación XSLT (empleados.xsl) que:
+
+Transforme el XML a una página HTML.
+
+Muestre el título "Lista de Empleados" en un encabezado <h1>.
+
+Liste cada empleado en un párrafo <p>, mostrando:
+
+Su nombre en negrita
+
+Su salario debajo del nombre
+
+Utilice templates para aplicar la transformación a cada nodo <empleado>.
+
+Use <xsl:apply-templates> para recorrer los empleados.
+
+Ordene los empleados por salario de mayor a menor utilizando <xsl:sort> dentro de apply-templates.
+
+Se proporciona la siguiente estructura base que deberás completar:
+
+-->

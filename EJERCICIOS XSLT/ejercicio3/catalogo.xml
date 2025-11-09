@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="catalogo.xslt" type="text/xsl"?>
+<catalogo>
+  <producto>
+    <nombre>Producto 1</nombre>
+    <descripcion>Descripción del producto 1</descripcion>
+    <precio>10.99</precio>
+  </producto>
+  <producto>
+    <nombre>Producto 2</nombre>
+    <descripcion>Descripción del producto 2</descripcion>
+    <precio>15.99</precio>
+  </producto>
+  <producto>
+    <nombre>Producto 3</nombre>
+    <descripcion>Descripción del producto 3</descripcion>
+    <precio>20.99</precio>
+  </producto>
+</catalogo>
+
+<!-- 
+Crea una hoja XSLT (catalogo.xsl) que:
+
+Transforme el XML en código HTML.
+
+Muestre un título principal en <h1> con el texto "Catálogo de Productos".
+
+Recorra cada <producto> usando xsl:apply-templates, en lugar de usar for-each.
+
+Cree una plantilla (xsl:template) específica para transformar cada nodo <producto>.
+
+Dentro de la plantilla de producto, muestre:
+
+El nombre del producto dentro de un <h2>
+
+La descripción dentro de un <p>
+
+El precio dentro de otro <p>
+-->
