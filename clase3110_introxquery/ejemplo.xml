@@ -1,0 +1,24 @@
+<ciclosFormativos>
+    <ciclo>
+        <nombre>Administración de Sistemas 
+            Informáticos en Red</nombre>
+    </ciclo>
+    <ciclo>
+        <nombre>Desarrollo de Aplicaciones 
+        Multiplataforma</nombre>
+        <grado>Superior</grado>
+        <año>2010</año>
+    </ciclo>
+    <ciclo>
+        <nombre>Desarrollo de Aplicaciones 
+        Web</nombre>
+        <grado>Superior</grado>
+        <año>2010</año>
+    </ciclo>
+    <ciclo>
+        <nombre>Sistemas Microinformáticos 
+        y Redes</nombre>
+        <grado>Medio</grado>
+        <año>2008</año>
+    </ciclo>
+</ciclosFormativos>

@@ -1,0 +1,34 @@
+<titulos>
+    <titulo>Empire Burlesque</titulo>
+</titulos>
+<titulos>
+    <titulo>Hide your heart</titulo>
+</titulos>
+<titulos>
+    <titulo>When a man loves a woman</titulo>
+</titulos>
+
+
+
+<titulos>
+    <titulo>Empire Burlesque</titulo>
+    <titulo>Hide your heart</titulo>
+    <titulo>When a man loves a woman</titulo>
+</titulos>
+
+
+
+<catalogo>
+    <disco>
+        <nombre>Empire Burlesque</nombre>
+        <cantante>Bob Dylan</cantante>
+    </disco>
+    <disco>
+        <nombre>Hide your heart</nombre>
+        <cantante>Dolly Parton</cantante>
+    </disco>
+    <disco>
+        <nombre>When a man loves a woman</nombre>
+        <cantante>Percy Sledge</cantante>
+    </disco>
+</catalogo>

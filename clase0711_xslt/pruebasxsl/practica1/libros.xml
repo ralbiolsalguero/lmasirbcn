@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Crea un .xslt con la siguiente estructura:
+id      titulo      autor       precio
+
+Ordenar de forma ascendiente por precio
+
+Filtrar elementos con precio > 30
+
+-->
+
+<?xml-stylesheet href="libros.xslt" type="text/xsl"?>
+
+<libros>
+    <libro id="1">
+        <titulo>Clean Code</titulo>
+        <autor>Robert C. Martin</autor>
+        <precio>35.99</precio>
+    </libro>
+    <libro id="2">
+        <titulo>El Programador Pragmático</titulo>
+        <autor>Andrew Hunt</autor>
+        <precio>29.99</precio>
+    </libro>
+</libros>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coleccion>
+    <cd>
+        <titulo>Empire Burlesque</titulo>
+        <artista>Bob Dylan</artista>
+        <precio>10.90</precio>
+    </cd>
+    <cd>
+        <titulo>Hide your heart</titulo>
+        <artista>Dolly Parton</artista>
+        <precio>9.90</precio>
+    </cd>
+    <cd>
+        <titulo>When a man loves a woman</titulo>
+        <artista>Percy Sledge</artista>
+        <precio>8.70</precio>
+    </cd>
+</coleccion>

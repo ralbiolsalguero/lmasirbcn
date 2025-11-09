@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="empleados.xslt" type="text/xsl"?>
+
+<empresa>
+    <empleado id="E01">
+        <nombre>Raúl</nombre>
+        <departamento>Informatica</departamento>
+        <salario>1800</salario>
+    </empleado>
+
+    <empleado id="E02">
+        <nombre>Carmen</nombre>
+        <departamento>Marketing</departamento>
+        <salario>1450</salario>
+    </empleado>
+
+    <empleado id="E03">
+        <nombre>Juan</nombre>
+        <departamento>Informatica</departamento>
+        <salario>2300</salario>
+    </empleado>
+
+    <empleado id="E04">
+        <nombre>Lucía</nombre>
+        <departamento>RRHH</departamento>
+        <salario>1700</salario>
+    </empleado>
+</empresa>
