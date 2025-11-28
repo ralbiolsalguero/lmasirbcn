@@ -1,0 +1,8 @@
+{
+    "alumno": {
+        "id": 1,
+        "curso": "A",
+        "nombre": "Juan",
+        "apellido": "Pérez"
+    }
+}

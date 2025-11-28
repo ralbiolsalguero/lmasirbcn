@@ -1,0 +1,14 @@
+{
+    "numero": 42,
+    "flotante": 9.99,
+    "cadena": "Hola Mundo",
+    "booleano": true,
+    "matriz": [1,2,3,4,5,6],
+    "objeto":{
+        "clave": "valor",
+        "subobjetos": {
+            "atributo": "dato"
+        }
+    },
+    "nulo": null
+}

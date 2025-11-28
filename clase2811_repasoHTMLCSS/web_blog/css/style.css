@@ -1,0 +1,126 @@
+:root {
+    --color-primario: #db2626;
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #111;
+}
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    position: sticky; /*position: sticky*/
+    top: 0;
+    background: var(--color-primario);
+    height: 50px;
+}
+
+.navbar a{
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-weight: 600;
+    padding: 20px 40px;
+}
+
+.navbar div {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.contenedor-imagen{
+    height: 100vh;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+main {
+    height: 1000px;
+}
+
+.contenedor {
+    height: 100%;
+    position: relative;
+}
+
+.contenido {
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+.contenido p {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.contenido .titulo{
+    font-weight: normal;
+}
+
+.contenido .fecha{
+    font-size: 14px;
+    font-weight: 600;
+    color: #636363;
+}
+
+aside {
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    width: 15%;
+    margin: 20px;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+aside .titulo {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+aside .indice a{
+    display: block;
+    color: var(--color-primario);
+    margin-bottom: 10px;
+}
+
+.btn-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: var(--color-primario);
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-fixed i {
+    color: #FFF;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+
+/*
+em -> 16px
+rem -> Tamaño de root -> 40px
+*/

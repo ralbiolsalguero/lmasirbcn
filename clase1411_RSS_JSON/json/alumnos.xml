@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno>
+        <nombre>Juan</nombre>
+        <apellido>Pérez</apellido>
+    </alumno>
+    <alumno>
+        <nombre>María</nombre>
+        <apellido>Gómez</apellido>
+    </alumno>
+    <alumno>
+        <nombre>Pedro</nombre>
+        <apellido>López</apellido>
+    </alumno>
+</alumnos>

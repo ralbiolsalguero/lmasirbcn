@@ -1,0 +1,35 @@
+
+/* > , hijo directo*/
+.navbar > p {
+    color: red
+}
+
+/* ~ */
+
+#titulo ~ p {
+    color: blue;
+}
+
+#titulo + p {
+    color: green;
+}
+
+.div p {
+    color: red;
+}
+
+.div .clase{
+    color: blue;
+}
+
+.clase1, .clase2 {
+    padding: 10%;
+    width: 100%;
+    background-color: blue;
+}
+
+.padre {
+    background: yellow;
+}
+
+/*inherit*/
